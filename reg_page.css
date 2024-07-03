@@ -1,0 +1,34 @@
+body {
+    background-image: url(/MAIN/IMAGES/walmart_reg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.reg_page {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 5px;
+    border: solid;
+    border-radius: 0;
+    padding: 10px;
+    background-color: aqua;
+    opacity: 0.8;
+}
+
+.reg {
+    display: flex;
+    align-items: center;
+}
+
+.reg1 {
+    text-decoration: underline;
+    margin-left: 200px;
+    color: aliceblue;
+}
+
+.foot {
+    margin-top: 0px;
+    margin-left: 420px;
+    color: aliceblue;
+}

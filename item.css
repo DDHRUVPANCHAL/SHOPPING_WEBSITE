@@ -1,0 +1,49 @@
+a:visited {
+    color: green;
+}
+
+a:link {
+    color: gold;
+}
+
+a:hover {
+    color: red;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+.milk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.borderr {
+    border: solid black 2px;
+}
+
+.heading {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: bold;
+}
+
+.fa-solid {
+    font-size: xx-large;
+    margin-top: 30px;
+ }
+ 
+ 

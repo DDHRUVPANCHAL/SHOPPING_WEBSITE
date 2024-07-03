@@ -1,0 +1,39 @@
+a:visited {
+    color: green;
+}
+
+a:link {
+    color: gold;
+}
+
+a:hover {
+    color: red;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+.payment {
+    margin-left: 500px;
+    margin-top: 0px;
+    margin-right: 550px;
+    border: solid;
+    align-items: center;
+    border-radius: 0;
+    padding: 10px;
+    background-color:rgb(173, 245, 202);
+    opacity: 0.8;
+    border-color: black;
+}
+
+.foot {
+    margin-top: 0px;
+    margin-left: 840px;
+}

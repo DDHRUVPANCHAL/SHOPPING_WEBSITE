@@ -1,0 +1,35 @@
+body {
+    background-image: url(/MAIN/IMAGES/walmart.png);
+    background-size: cover;
+}
+
+
+.form_login {
+    margin-left: 500px;
+    margin-top: 0px;
+    margin-right: 550px;
+    border: solid;
+    align-items: center;
+    border-radius: 0;
+    padding: 10px;
+    background-color: cornflowerblue;
+    opacity: 0.8;
+    border-color: aliceblue;
+}
+
+.reg {
+    display: flex;
+    align-items: center;
+}
+
+.reg1 {
+    text-decoration: solid;
+    color: aliceblue;
+    margin-left: 200px;
+}
+
+.foot {
+    margin-top: 0px;
+    margin-left: 840px;
+    color: aliceblue;
+}

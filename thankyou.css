@@ -1,0 +1,39 @@
+body {
+    background-image: url(/MAIN/IMAGES/thank_you.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a:visited {
+    color: green;
+}
+
+a:link {
+    color: gold;
+}
+
+a:hover {
+    color: red;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+.thank_you {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 540px;
+}
+
+.foot {
+    margin-top: 120px;
+    margin-left: 800px;
+}

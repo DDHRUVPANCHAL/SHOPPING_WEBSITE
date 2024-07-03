@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reg_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="reg_page.js"></script>
+    <title>WALMART - Registration</title>
+</head>
+<body>
+    <div class="reg">
+        <a href="login_page.html"><img src="/MAIN/IMAGES/walmart.jpg" alt="Walmart Logo" height="190" width="200"></a>
+        <h1 class="reg1">Welcome To Walmart Registration</h3>
+    </div>
+    
+    <form class="reg_page" name="Reg_Page" onsubmit="return reg_page()" action="login_page.html">
+        <h4><i class="fa-solid fa-circle-user"></i>USER NAME</h4>
+        <input type="text" placeholder="name" name="user" required>
+        <h4><i class="fa-solid fa-envelope"></i>EMAIL ADDRESS</h4>
+        <input type="email" placeholder="email" name="email" required>
+        <h4><i class="fa-solid fa-phone"></i>PHONE NUMBER</h4>
+            <select name="" id="">
+                <option value="">+91</option>
+            </select>
+        <input type="tel" placeholder="phone number" name="phone" required>
+        <h4><i class="fa-solid fa-calendar-days"></i>DATE OF BIRTH</h4>
+        <input type="date" placeholder="dob" name="dob" required>
+        <h4><i class="fa-solid fa-lock"></i>PASSWORD</h4>
+        <input type="password" placeholder="password" name="pass" required>
+        <h4><i class="fa-solid fa-lock"></i>RE-ENTER PASSWORD</h4>
+        <input type="password" placeholder="re-enter password" name="rpass" required> <br> <br>
+        <input type="submit"> <input type="reset"> <br>
+        <h5>Already Have Account? <a href="login_page.html">Sign in!</a></h5>
+    </form>
+    <h4 class="foot"><footer class="foot">Copyright - Dhruv Panchal All Rights Reserved 2024 &copy</footer></h4>
+</body>
+</html>

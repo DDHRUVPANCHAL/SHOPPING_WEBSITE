@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+    
+        .navbar {
+          margin: -8px;
+          background-color: #f58206;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          justify-content: space-between;
+        }
+    
+        .login {
+          justify-content: center;
+          vertical-align: middle;
+          text-align: center;
+          padding-top: 20px;
+        }
+    
+    
+        .navbar a {
+          font-size: larger;
+          float: left;
+          display: block;
+          color: black;
+          text-align:center;
+          align-self: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+    
+        .navbar a:hover {
+          border-radius: 20%;
+          transition: 0.5s;
+          text-decoration-color: #d56e00;
+          color: rgb(251, 251, 251);
+        }
+    
+        .search-container {
+          float: right;
+          text-align: center;
+          align-self: center;
+          padding-bottom: 1;
+        }
+    
+        .search-container input[type=text] {
+          padding: 6px;
+          margin-top: 12px;
+          font-size: 17px;
+          border: none;
+        }
+    
+        .search-container button {
+          float: right;
+          padding: 6px 10px;
+          margin-top: 12px;
+          margin-right: 16px;
+          background: #f7910c;
+          font-size: 17px;
+          border: none;
+          cursor: pointer;
+        }
+    
+        .search-container button:hover {
+          background: #ddd;
+        }
+    
+        .slideshow-container {
+          position: relative;
+          margin: auto;
+        }
+    
+        .mySlides {
+          display: none;
+        }
+    
+        .mySlides img {
+          width: 100%;
+          height: auto;
+        }
+      </style>
+    </head>
+    
+    <body>
+    
+    
+      <!-- Navigation bar -->
+      <div class="navbar">
+        
+        <img src="logo.jpeg" left" width="80px" height="80px" class="image">
+        <a href="#home">Home</a>
+          <a href="exercise.html">Exercises</a>
+          <a href="Store.html">Workouts</a>
+        <a href="Diet plans.html">
+            <select name="" id="">
+                <option value="">Diet plans</option>
+                <option value="">Store</option>
+            </select>
+        </a>
+        <a href="Store.html">Store</a>
+          
+                    
+        <div class="login" align="center">
+          <a href="store.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="login.html" align="center"><i class="fa-solid fa-user"></i></a>
+        </div>
+    
+    
+    
+    
+        <div class="search-container">
+          <form>
+            <input type="text" placeholder="Search Exercise,diet plans.." name="search" id="searchbar">
+            <button type="submit" onclick="myfunc()">Search</button>
+    
+    
+    
+          </form>
+        </div>
+      </div>
+</body>
+</html>
